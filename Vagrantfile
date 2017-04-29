@@ -4,7 +4,7 @@
 Vagrant.configure(2) do |config|
   config.vm.box     = "serverspec"
   config.vm.box_url = "https://github.com/2creatives/vagrant-centos/releases/download/v6.5.3/centos65-x86_64-20140116.box"
-  config.vm.hostname="infra-testing"
+  config.vm.hostname="hubot"
   config.vbguest.auto_update = false
   config.vbguest.no_remote = true
 
